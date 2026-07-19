@@ -7,7 +7,7 @@ print(f"Starting application with ENV app_version: {os.getenv('app_version')}")
 
 @app.route("/")
 def hello():
-    return "Hello, World!"
+    return "Hello, World! this is new change"
 
 if __name__ == "__main__":
     
